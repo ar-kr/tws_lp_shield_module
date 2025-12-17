@@ -1,3 +1,4 @@
+name: zmk-keyboard-tws_lp_jis60
 build:
   settings:
     board_root: .
