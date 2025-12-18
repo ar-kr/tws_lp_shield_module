@@ -18,3 +18,8 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+include:
+ - board: seeeduino_xiao_ble
+   shield: tws_lp_jis60_right
+ - board: seeeduino_xiao_ble
+   shield: tws_lp_jis60_left
