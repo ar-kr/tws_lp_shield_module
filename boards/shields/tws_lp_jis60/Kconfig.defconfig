@@ -1,4 +1,4 @@
-if SHIELD_TWS_LP_JIS60_LEFT
+if SHIELD_TWS_LP_JIS60_RIGHT
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
@@ -6,6 +6,25 @@ config ZMK_KEYBOARD_NAME
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
+
+config USB_DEVICE_PRODUCT
+    default "tws_lp_jis60 Right"
+
+config BT_DEVICE_NAME
+    default "tws_lp_jis60 Right"
+
+endif
+
+if SHIELD_TWS_LP_JIS60_LEFT
+
+config ZMK_SPLIT_ROLE_PERIPHERAL
+    default y
+
+config USB_DEVICE_PRODUCT
+    default "tws_lp_jis60 Left"
+
+config BT_DEVICE_NAME
+    default "tws_lp_jis60 Left"
 
 endif
 
