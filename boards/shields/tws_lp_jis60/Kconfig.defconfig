@@ -17,8 +17,8 @@ endif
 
 if SHIELD_TWS_LP_JIS60_LEFT
 
-config ZMK_SPLIT_ROLE_PERIPHERAL
-    default y
+config ZMK_SPLIT_ROLE_CENTRAL
+    default n
 
 config USB_DEVICE_PRODUCT
     default "tws_lp_jis60 Left"
