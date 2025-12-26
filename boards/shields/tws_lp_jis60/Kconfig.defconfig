@@ -2,7 +2,7 @@ if SHIELD_TWS_LP_JIS60_RIGHT
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
-    default "tws_lp_jis60"
+    default "tws_lp_jis60_R"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
@@ -16,6 +16,10 @@ config BT_DEVICE_NAME
 endif
 
 if SHIELD_TWS_LP_JIS60_LEFT
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "tws_lp_jis60_L"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default n
