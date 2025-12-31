@@ -1,0 +1,5 @@
+config SHIELD_TWS_LP_JIS60_LEFT
+    def_bool $(shields_list_contains,tws_lp_jis60_left)
+
+config SHIELD_TWS_LP_JIS60_RIGHT
+    def_bool $(shields_list_contains,tws_lp_jis60_right)
